@@ -1,0 +1,6 @@
+platform:ios,8.0
+target 'CustomizeAlertView'do
+pod 'Masonry'
+pod 'ReactiveCocoa','~>2.1.8'
+pod 'SDWebImage'
+end
