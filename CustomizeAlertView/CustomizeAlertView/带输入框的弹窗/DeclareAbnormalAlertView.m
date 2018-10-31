@@ -165,6 +165,7 @@
     if ([self.delegate respondsToSelector:@selector(declareAbnormalAlertView:clickedButtonAtIndex:)]) {
         [self.delegate declareAbnormalAlertView:self clickedButtonAtIndex:AlertButtonLeft];
     }
+    NSLog(@"申报异常按钮点击") ;
     [self dismiss];
 }
 
@@ -174,6 +175,7 @@
     if ([self.delegate respondsToSelector:@selector(declareAbnormalAlertView:clickedButtonAtIndex:)]) {
         [self.delegate declareAbnormalAlertView:self clickedButtonAtIndex:AlertButtonRight];
     }
+    NSLog(@"x取消按钮点击") ;
     [self dismiss];
 }
 

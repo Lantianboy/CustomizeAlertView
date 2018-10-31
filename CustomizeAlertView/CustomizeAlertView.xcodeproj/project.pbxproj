@@ -22,6 +22,7 @@
 		A31BB37B218041C4003DAA40 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A31BB37A218041C4003DAA40 /* main.m */; };
 		A31BB385218041C4003DAA40 /* CustomizeAlertViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A31BB384218041C4003DAA40 /* CustomizeAlertViewTests.m */; };
 		A31BB390218041C4003DAA40 /* CustomizeAlertViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A31BB38F218041C4003DAA40 /* CustomizeAlertViewUITests.m */; };
+		A331DF6F2186B44F008C5DA5 /* SQPrintJsonLog.m in Sources */ = {isa = PBXBuildFile; fileRef = A331DF6E2186B44F008C5DA5 /* SQPrintJsonLog.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +74,8 @@
 		A31BB38B218041C4003DAA40 /* CustomizeAlertViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomizeAlertViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A31BB38F218041C4003DAA40 /* CustomizeAlertViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomizeAlertViewUITests.m; sourceTree = "<group>"; };
 		A31BB391218041C4003DAA40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A331DF6D2186B44F008C5DA5 /* SQPrintJsonLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQPrintJsonLog.h; sourceTree = "<group>"; };
+		A331DF6E2186B44F008C5DA5 /* SQPrintJsonLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQPrintJsonLog.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -174,6 +177,8 @@
 				A31BB36F218041C3003DAA40 /* ViewController.m */,
 				A30AE6EF2180509000CC7E99 /* SecondViewController.h */,
 				A30AE6F02180509000CC7E99 /* SecondViewController.m */,
+				A331DF6D2186B44F008C5DA5 /* SQPrintJsonLog.h */,
+				A331DF6E2186B44F008C5DA5 /* SQPrintJsonLog.m */,
 				A31BB371218041C3003DAA40 /* Main.storyboard */,
 				A31BB374218041C4003DAA40 /* Assets.xcassets */,
 				A31BB376218041C4003DAA40 /* LaunchScreen.storyboard */,
@@ -397,6 +402,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A331DF6F2186B44F008C5DA5 /* SQPrintJsonLog.m in Sources */,
 				A30AE6F12180509000CC7E99 /* SecondViewController.m in Sources */,
 				A30AE6ED21804ED500CC7E99 /* CQHUD.m in Sources */,
 				A31BB370218041C3003DAA40 /* ViewController.m in Sources */,
